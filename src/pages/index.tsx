@@ -1,5 +1,6 @@
 import { HeroSection } from '@/components/HeroSection';
 import { NavBar } from '@/components/NavBar';
+import { ToolSection } from '@/components/ToolSection';
 
 export default function Home() {
   return (
@@ -10,6 +11,8 @@ export default function Home() {
         {/* Hero Section */}
         <HeroSection />
       </div>
+      {/* Tools Section */}
+      <ToolSection />
     </main>
   );
 }
