@@ -13,7 +13,7 @@ export function ProjectSection() {
         className='absolute -z-20 -top-1 left-8 sm:-top-24 sm:left-24 sm:blur-[100px] blur-xl w-10/12'
         sizes='100vw'
       />
-      <div className='text-center drop-shadow-lg text-[2rem] font-extrabold -tracking-tighter mix-blend-overlay backdrop-blur-[6.85rem] shadow-inner sm:text-6xl uppercase'>
+      <div className='text-center drop-shadow-lg text-[2rem] font-extrabold -tracking-tighter mix-blend-overlay shadow-inner sm:text-6xl uppercase'>
         PROJECT
       </div>
       <ProjectCardSection imagePosition='left' />

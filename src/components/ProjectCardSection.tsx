@@ -18,7 +18,7 @@ export function ProjectCardSection({ imagePosition }: ProjectCardProps) {
         height={0}
         alt='card-image'
         sizes='100vw'
-        className='w-full object-cover max-w-min max-h-48 sm:w-full sm:min-w-[32rem] sm:min-h-[21rem] sm:max-w-[32rem] sm:max-h-[21rem] sm:rounded-lg'
+        className='w-full object-cover min-w-full max-w-min max-h-48 sm:w-full sm:min-w-[32rem] sm:min-h-[21rem] sm:max-w-[32rem] sm:max-h-[21rem] sm:rounded-lg'
       />
       <div
         className={`flex px-4 py-4 flex-col items-start gap-6 self-stretch sm:py-4 sm:px-2 sm:gap-4 sm:items-start`}

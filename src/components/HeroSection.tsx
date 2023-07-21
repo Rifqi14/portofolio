@@ -49,7 +49,7 @@ export function HeroSection() {
           <div className='text-center text-sm sm:text-2xl'>
             👋 I’m <span className='font-bold'>Muhammad Rifqi</span>
           </div>
-          <div className='text-center drop-shadow-lg text-[2rem] font-extrabold -tracking-tighter mix-blend-overlay backdrop-blur-[6.85rem] shadow-inner sm:text-6xl'>
+          <div className='text-center drop-shadow-lg text-[2rem] font-extrabold -tracking-tighter mix-blend-overlay shadow-inner sm:text-6xl'>
             WEB DEVELOPER
           </div>
         </div>
