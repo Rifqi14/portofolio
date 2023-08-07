@@ -1,6 +1,9 @@
+import { ArticleSection } from '@/components/ArticleSection';
+import { BreakSection } from '@/components/BreakSection';
 import { HeroSection } from '@/components/HeroSection';
 import { NavBar } from '@/components/NavBar';
 import { ProjectSection } from '@/components/ProjectSection';
+import { TestimonialSection } from '@/components/TestimonialSection';
 import { ToolSection } from '@/components/ToolSection';
 
 export default function Home() {
@@ -16,6 +19,12 @@ export default function Home() {
       <ToolSection />
       {/* Project Section */}
       <ProjectSection />
+      {/* Break Section */}
+      <BreakSection />
+      {/* Testimonial Section */}
+      <TestimonialSection />
+      {/* Article Section */}
+      <ArticleSection />
     </main>
   );
 }

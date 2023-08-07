@@ -29,3 +29,9 @@ body {
   backdrop-filter: blur(6.85rem);
   -webkit-backdrop-filter: blur(6.85rem);
 }
+
+.ellipsis {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}

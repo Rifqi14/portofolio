@@ -10,7 +10,7 @@ export function ProjectCardSection({ imagePosition }: ProjectCardProps) {
     <div
       className={`flex flex-col ${
         imagePosition === 'left' ? 'sm:flex-row' : 'sm:flex-row-reverse'
-      } pb-0 items-start gap-2 border-2 border-[#BA48FF] rounded-md bg-[#181548] shadow-[0px_0px_20px_0px_#CF46FF] w-full sm:px-40 sm:py-9 sm:bg-inherit sm:border-none sm:shadow-none sm:gap-6`}
+      } pb-0 items-start gap-2 border-2 border-[#BA48FF] rounded-md bg-[#181548] shadow-[0px_0px_20px_0px_#CF46FF] w-full sm:py-9 sm:bg-inherit sm:border-none sm:shadow-none sm:gap-6`}
     >
       <Image
         src={'/profile-picture.png'}
