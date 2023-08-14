@@ -13,6 +13,7 @@ export function NavBar() {
   const navItems: NavItem[] = [
     { label: 'Home', link: '#', key: 'home' },
     { label: 'About', link: '#', key: 'about' },
+    { label: 'Article', link: '#', key: 'article' },
     { label: 'Project', link: '#', key: 'projects' },
     { label: 'Services', link: '#', key: 'services' },
     { label: 'Work', link: '#', key: 'work' }

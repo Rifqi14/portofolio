@@ -6,7 +6,7 @@ type SocMedType = {
   link: string;
 };
 
-export function HeroSection() {
+export function SocmedSection() {
   const socmeds: SocMedType[] = [
     {
       source: '/socmed/github.svg',
@@ -35,6 +35,25 @@ export function HeroSection() {
     }
   ];
   return (
+    <div className='flex items-start gap-4'>
+      {socmeds.map(socmed => (
+        <Link href={socmed.link} key={socmed.alt} target='_blank'>
+          <Image
+            src={socmed.source}
+            alt={socmed.alt}
+            width={0}
+            height={0}
+            sizes='100vw'
+            className='w-6 sm:w-9'
+          />
+        </Link>
+      ))}
+    </div>
+  );
+}
+
+export function HeroSection() {
+  return (
     <div className='flex sm:flex-auto flex-col-reverse sm:flex-row relative sm:py-8 sm:px-40 p-6 justify-center sm:justify-between items-center self-stretch gap-9'>
       <Image
         src={'/images/background.png'}
@@ -58,20 +77,7 @@ export function HeroSection() {
             Fullstack Typescript Developer, with 3 YoE in Express JS, Nest, Next
             JS Framework
           </div>
-          <div className='flex items-start gap-4'>
-            {socmeds.map(socmed => (
-              <Link href={socmed.link} key={socmed.alt} target='_blank'>
-                <Image
-                  src={socmed.source}
-                  alt={socmed.alt}
-                  width={0}
-                  height={0}
-                  sizes='100vw'
-                  className='w-6 sm:w-9'
-                />
-              </Link>
-            ))}
-          </div>
+          <SocmedSection />
         </div>
       </div>
       <div className='relative'>
