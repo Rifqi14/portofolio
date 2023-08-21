@@ -5,10 +5,14 @@ import { NavBar } from '@/components/NavBar';
 import { ProjectSection } from '@/components/ProjectSection';
 import { TestimonialSection } from '@/components/TestimonialSection';
 import { ToolSection } from '@/components/ToolSection';
+import Head from 'next/head';
 
 export default function Home() {
   return (
     <>
+      <Head>
+        <title>Home | Muhammad Rifqi</title>
+      </Head>
       <main>
         {/* Navbar */}
         <NavBar />
